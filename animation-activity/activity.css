@@ -29,15 +29,18 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
-}
-
+  to {
+    transform-origin: left top;
+    transform:rotatez(41deg) translate(16px,1px) ;}}
+    
 @keyframes middle {
   from {}
-  to {}
+  to {opacity: 0%;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform-origin: left bottom;
+    transform:rotatez(-41deg) translate(18px,1px) ;}
+    
 }
